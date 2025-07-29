@@ -86,11 +86,8 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Center(
-        child: Text(
-          'Hello, everyone!',
-          style: TextStyle(fontSize: 24),
-          ),
-          ),
+        child: Text('Hello, everyone!', style: TextStyle(fontSize: 24)),
+      ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',
