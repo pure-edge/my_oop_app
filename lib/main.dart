@@ -87,7 +87,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Center(
         child: Text(
-          'Hello, OOP!',
+          'Hello, everyone!',
           style: TextStyle(fontSize: 24),
           ),
           ),
